@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/css/bootstrap.min.css"
+        integrity="sha384-VCmXjywReHh4PwowAiWNagnWcLhlEJLA5buUprzK8rxFgeH0kww/aWY76TfkUoSX" crossorigin="anonymous">
+
+    <title>COTTON PLANT DISEASE PREDICTION</title>
+
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .card-style {
+            background-color: #c2c2d6;
+
+        }
+          body{
+              background-image: url(background.jpeg);
+              background-size: cover ;
+              background-attachment:fixed;
+
+          }
+
+        .content {
+            padding: 15px;
+            color: white;
+            background-color: rgb(153, 156, 150);
+            /* font-size: 1rem; */
+        }
+
+        @media (max-width: 430px) and (min-width: 100px) {
+
+
+            .contents {
+                font-size: 0.6rem;
+                color: #ffaa80;
+            }
+
+            .content-h1 {
+
+                font-size: 1rem;
+            }
+        }
+
+        .border img {
+            border-radius: 15px;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+
+<body>
+
+  
+
+
+    <div class="container my-2">
+        <div class="row mb-5">
+
+            <div class="col-sm" style="margin-bottom: 23px;">
+                <span class="border border-primary">
+                    <img src="{{ user_image }}" alt="User Image" class="img-thumbnail">
+                    <!-- <img src="{{pred_output}}" alt="User Image" class="img-thumbnail"> -->
+
+
+                </span>
+            </div>
+
+            <div class="col-sm">
+
+                <div>
+                    <h1 style="padding: 10px; background-color: #33334d; color: white;"
+                        class="text-center mb-5 content-h1 rounded">
+                        {{pred_output}} </h1>
+                </div>
+
+                <h5><u><b>Disease Name : </b></span></u></h5>
+                <h4 style="line-height: 200%">Attack of Leaf Sucking and Chewing Pests <br>
+                    </h4>
+                <hr class="w-100 mx-auto ">
+                <h5><u><b>Solution for Disease :</b></u> </h5>
+        <p><strong>Use any one Systemic Insecticide, which contain<i> Flonicamid 50%/ Thiamethoxam 25% WG / Imidacloprid
+                    17.8 Sl / Acetamiprid 20% SP.</i></strong></p>
+            </div>
+            
+        <p></p>
+        </div>
+
+
+        
+       
+        
+       
+       
+        
+    </div>
+
+
+
+    <section>
+
+        <div class="container">
+            <h3 style="padding: 10px; background-color: #33334d; color: white;"
+                class="text-center my-3 content-h1">
+                Recommended Products<sub style="font-size:8.0pt">     Click on image to buy<sub></h3>
+
+        </div>
+
+        <div class="container">
+
+
+            <div class="card-columns">
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <a href="https://farmagritech.com/product/dhanpreet-100gm/"><img style="border-radius: 10px;" class="img-fluid" src="/static/images/preet.jpg" alt=""></a>
+                        <h5 class="card-text">Dose: 60-80 gm/Acre</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body text-center card-style">
+                        <a href="https://agribegri.com/products/online-ulala--upl-ulala-60-gm-buy-online--agribegri.php"><img style="border-radius: 10px;" class="img-fluid" src="/static/images/ulala.jpg" alt=""></a>
+                        <h5 class="card-text">Dose: 25-40 gm/Acre</h5>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <a href="http://www.wellgreenkisanbazar.com/index.php/productinfo/victor-super"><img style="border-radius: 10px" class="img-fluid" src="/static/images/victor.jpg" alt=""></a>
+                        <h5 class="card-text">Dose: 60-80 gm/Acre</h5>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <a href="https://www.agritell.com/products/confidor"><img style="border-radius: 10px;" class="img-fluid" src="/static/images/confidor.jpg" alt=""></a>
+                        <h5 class="card-text">Dose: 25-35 ml/Acre</h5>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <a href="https://agrowala.com/product/details/2992/panama"><img style="border-radius: 10px;" class="img-fluid" src="/static/images/panama.jpg" alt=""></a>
+                        <h5 class="card-text">Dose: 60-80 gm/Acre</h5>
+                    </div>
+                </div>
+                <div class="card ">
+                    <div class="card-body text-center card-style">
+                        <a href="https://www.bighaat.com/products/actara-insecticide"><img style="border-radius: 10px;" class="img-fluid" src="/static/images/actara.jpg" alt="" ></a>
+                        <h5 class="card-text">Dose: 60-80 gm/Acre</h5>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+</body>
+
+</html>
